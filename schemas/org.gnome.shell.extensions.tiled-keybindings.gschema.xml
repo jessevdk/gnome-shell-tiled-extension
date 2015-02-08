@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema path="/org/gnome/shell/extensions/tiled/" id="org.gnome.shell.extensions.tiled">
+    <child name="key-bindings" schema="org.gnome.shell.extensions.tiled.key-bindings"/>
+    <key type="i" name="n-workspaces">
+      <range min="1" max="9"/>
+      <default>9</default>
+      <summary>Number of workspaces</summary>
+      <description></description>
+    </key>
+  </schema>
+  <schema path="/org/gnome/shell/extensions/tiled/key-bindings/" id="org.gnome.shell.extensions.tiled.key-bindings">
+    <key type="as" name="tiled-close">
+      <default>["&lt;Super&gt;&lt;Shift&gt;C"]</default>
+      <summary>Close active window</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-swap-master">
+      <default>["&lt;Super&gt;Return"]</default>
+      <summary>Swap active window with master</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-increase-master-size">
+      <default>["&lt;Super&gt;bracketright", "&lt;Super&gt;KP_Add"]</default>
+      <summary>Increase master size</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-decrease-master-size">
+      <default>["&lt;Super&gt;bracketleft", "&lt;Super&gt;KP_Subtract"]</default>
+      <summary>Decrease master size</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-activate-workspace-1">
+      <default>["&lt;Super&gt;1"]</default>
+      <summary>Activate workspace 1</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-activate-workspace-2">
+      <default>["&lt;Super&gt;2"]</default>
+      <summary>Activate workspace 2</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-activate-workspace-3">
+      <default>["&lt;Super&gt;3"]</default>
+      <summary>Activate workspace 3</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-activate-workspace-4">
+      <default>["&lt;Super&gt;4"]</default>
+      <summary>Activate workspace 4</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-activate-workspace-5">
+      <default>["&lt;Super&gt;5"]</default>
+      <summary>Activate workspace 5</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-activate-workspace-6">
+      <default>["&lt;Super&gt;6"]</default>
+      <summary>Activate workspace 6</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-activate-workspace-7">
+      <default>["&lt;Super&gt;7"]</default>
+      <summary>Activate workspace 7</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-activate-workspace-8">
+      <default>["&lt;Super&gt;8"]</default>
+      <summary>Activate workspace 8</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-activate-workspace-9">
+      <default>["&lt;Super&gt;9"]</default>
+      <summary>Activate workspace 9</summary>
+      <description></description>
+    </key>
+
+    <key type="as" name="tiled-move-to-workspace-1">
+      <default>["&lt;Super&gt;&lt;Shift&gt;1"]</default>
+      <summary>Move window to workspace 1</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-move-to-workspace-2">
+      <default>["&lt;Super&gt;&lt;Shift&gt;2"]</default>
+      <summary>Move window to workspace 2</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-move-to-workspace-3">
+      <default>["&lt;Super&gt;&lt;Shift&gt;3"]</default>
+      <summary>Move window to workspace 3</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-move-to-workspace-4">
+      <default>["&lt;Super&gt;&lt;Shift&gt;4"]</default>
+      <summary>Move window to workspace 4</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-move-to-workspace-5">
+      <default>["&lt;Super&gt;&lt;Shift&gt;5"]</default>
+      <summary>Move window to workspace 5</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-move-to-workspace-6">
+      <default>["&lt;Super&gt;&lt;Shift&gt;6"]</default>
+      <summary>Move window to workspace 6</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-move-to-workspace-7">
+      <default>["&lt;Super&gt;&lt;Shift&gt;7"]</default>
+      <summary>Move window to workspace 7</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-move-to-workspace-8">
+      <default>["&lt;Super&gt;&lt;Shift&gt;8"]</default>
+      <summary>Move window to workspace 8</summary>
+      <description></description>
+    </key>
+    <key type="as" name="tiled-move-to-workspace-9">
+      <default>["&lt;Super&gt;&lt;Shift&gt;9"]</default>
+      <summary>Move window to workspace 9</summary>
+      <description></description>
+    </key>
+  </schema>
+</schemalist>

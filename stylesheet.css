@@ -1,0 +1,37 @@
+.tiler-indicator-box {
+  padding: 3px;
+}
+
+.tiler-indicator-label {
+  padding-left: 9px;
+  padding-right: 10px;
+  border: 1px solid #666;
+  border-right: 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.tiler-indicator-label:last-child {
+  padding-right: 9px;
+  border-right: 1px solid #666;
+}
+
+.tiler-indicator-label:hover {
+  color: white;
+  border: 1px solid #ccc;
+  padding-right: 9px;
+}
+
+.tiler-indicator-label:current,
+.tiler-indicator-label:current:hover {
+  background-color: #666;
+  color: #333;
+}
+
+.tiler-indicator-label.has-windows {
+  color: white;
+}
+
+.tiler-indicator-label.needs-attention {
+  background-color: #f00;
+}

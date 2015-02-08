@@ -1,0 +1,8 @@
+{
+  "shell-version": [
+    "3.14.3"
+  ],
+  "uuid": "tiled@jessevdk.gnome.org",
+  "name": "Tiled",
+  "description": "Tiled window management"
+}
