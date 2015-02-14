@@ -6,7 +6,6 @@ const Tiling = Me.imports.tiling;
 const utils = Me.imports.utils;
 const Signals = utils.Signals;
 const Window = Me.imports.window.Window;
-const Screen = Me.imports.window.Screen;
 
 // A workspace represents a single tiled workspace inside a screen. This is
 // not the same as a shell workspace since shell workspaces are not independent
