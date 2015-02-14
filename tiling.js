@@ -100,11 +100,7 @@ const Schemes = {
 };
 
 const tilingWindowTypes = [
-  Meta.WindowType.NORMAL,
-  Meta.WindowType.DIALOG,
-  Meta.WindowType.TOOLBAR,
-  Meta.WindowType.UTILITY,
-  Meta.WindowType.SPLASHSCREEN
+  Meta.WindowType.NORMAL
 ];
 
 function windowTypeCanTile(type) {
