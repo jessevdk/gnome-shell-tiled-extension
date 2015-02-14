@@ -193,6 +193,10 @@ const Window = new Lang.Class({
     this.metaWindow.move_resize_frame(true, p.x, p.y, p.width, p.height);
   },
 
+  moveToScreen: function(s) {
+    this.metaWindow.move_to_monitor(s.monitor);
+  },
+
   unmap: function() {
     if (!this._mapped) {
       return;
