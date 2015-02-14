@@ -213,7 +213,10 @@ const Window = new Lang.Class({
     if (this._positionSize && this.metaWindow) {
       this.moveResize(this._positionSize);
       ext.restore_size_constraints(this.metaWindow, this._constraints);
+      this._positionSize = null;
     }
+
+    this.frame = null;
   }
 });
 
