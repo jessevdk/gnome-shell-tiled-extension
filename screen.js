@@ -66,13 +66,17 @@ const Screen = new Lang.Class({
   _windowDragMoving: function(window) {
     let s = Screen.getAtPointer();
 
-    if (s !== this) {
-      return;
-    }
-
-    // Delegate back to workspace
-    if (this._currentWorkspace) {
-      this._currentWorkspace.windowDragMoving(window);
+    if (s === this) {
+      // Delegate back to workspace
+      if (this._currentWorkspace) {
+        this._currentWorkspace.windowDragMoving(window);
+      }
+    } else {
+      // Move to other screen
+      this._onWindowRemoved(this.shellWorkspace, window.metaWindow);
+      window.restore();
+      window.moveToScreen(s);
+      s._onWindowAdded(this.shellWorkspace, window.metaWindow);
     }
   },
 
